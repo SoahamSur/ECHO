@@ -19,7 +19,7 @@ engine.setProperty('voice', voices[1].id)
 newsapi="YOUR_NEWS_API_KEY"
 weatherApi = "YOUR_WEATHER_API_KEY"
 youtube_api_key = "YOUR_YOUTUBE_API_KEY"
-
+gemini_key = "YOUR_GEMINI_KEY"
 
 def speak(text):
     engine.say(text)
@@ -56,7 +56,6 @@ def get_weather_info(location):
         speak("Thank you for using our service")
 
 def aiProcess(command):
-    gemini_key = "AIzaSyDl-Ksq6sPBdzMu-60qHDfdJJtX_9cd63c"
     genai.configure(api_key=gemini_key)
     model = genai.GenerativeModel(model_name="gemini-1.5-flash")
 
