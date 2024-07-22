@@ -16,9 +16,9 @@ voices = engine.getProperty('voices')
 engine.setProperty('voice', voices[1].id)
 
 
-newsapi="766adcc894a04cd8ae44fce2de56e762"
-weatherApi = "4e6a3856412b4922bb5141121240207"
-youtube_api_key = "AIzaSyAvB_quNhnHvJbZSvpWYOYhfjfQvca3aFw"
+newsapi="YOUR_NEWS_API_KEY"
+weatherApi = "YOUR_WEATHER_API_KEY"
+youtube_api_key = "YOUR_YOUTUBE_API_KEY"
 
 
 def speak(text):
