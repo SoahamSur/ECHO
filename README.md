@@ -60,7 +60,7 @@ Echo is a virtual assistant designed to perform a variety of tasks such as fetch
 ## Usage
 1. Run the script to start the Echo assistant.
 2. Say "Echo" to activate the assistant.
-3. Give commands such as "What's the weather?", "Tell me a joke", "Play [song name]", or "Search YouTube for [query]".
+3. Give commands such as "What's the weather?", "Tell me a joke", "Play [song name]", "Search YouTube for [query]" or "Any general tasks".
 4. The assistant will recognize your voice command, process it, and respond accordingly.
 
 ## Contributing
